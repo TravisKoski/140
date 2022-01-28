@@ -126,7 +126,7 @@ int itmv_mult(double local_A[] /* in */, double local_x[] /* in */,
  *  Run t iterations of  computation:  {y=d+Ax; x=y} sequentially.
  *
  * In args:
- *  A: matrix A
+ *  sh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDYzEJv9YArEkSiIsulKdcZOReqxRRh7qhLSmiq7qVbwnGu/sFZ2J0DFTL+J73fc/V4TIEWJay5T93VOFnn4jKpYEYxBec2PWyo4vO0LKVDno1D20I2xw1C+KVPplFDEn2nkhvGVtP3Cze/qkirR9yXhZwLLIr/tQwMaAfbnOTSfnyuNE/Rbr13Vxx4m52pMOZmU+MmSE4yUDLQV2UMaUpQCsae1YMjN6xTeCJLVS7vlDsY21ffvViyGisbXjNqUTJ0nMrygA3hDsP/YY/azO/VViwt2+ofQhyiQ2fERBGza3iQEpEemU+E80TBOT2OSyRnGv+as+e9IntTYxI9yBC/2G5z3gRiKix20vQcerbaO5Pt1N+IKhqmj2FkOY56ME8Mp06rlmMXGk8TiDL3JrKU3vqjr7kPfU/VRP0C6VzdyrciHaaAp/SNxgcrhJN2Ky+/5yYKzrD7/fy/V/zrDzcojlip/CJR7eqULfRFRINkcoHofMf06+JrQjV5YPb8UrMxBgZpenLSf5BfWSKpbgHwKz/z4qFYYUkA+4baaojNRLO2s+2Iv0Ev9nJ5TeCCtzr17/SZHLKO6PlMssxaC6JmJuqWMIYcxaHzKkbgLRQJM25PaAlrJEFuIcU2td7QPb9BaCrZpjZOydlxdUoTbVzKMOfGFOaOxIbiGLJjFguzvw== travis_koski@ucsb.edu  : matrix A
  *  d: column vector d
  *  matrix_type: matrix_type=0 means A is a regular matrix.
  *               matrix_type=1 (UPPER_TRIANGULAR) means A is
